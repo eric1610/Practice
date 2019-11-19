@@ -1,0 +1,30 @@
+body {
+    color: red;
+}
+
+article {
+    background-color: #0F5A99;
+    width: 400px;
+}
+
+article:hover,p:hover {
+    background-color: #55BB22FF;
+}
+
+#firstArticle{
+    color: #F1A5C2;
+    font-size: 16px;
+    font-family: Helvetica;
+    padding: 10px 15px;
+    background-color: #554439;
+    margin: 20px;
+    float: right;
+    border: 1px solid black;
+}
+
+
+p {
+    background-color: cyan;
+    padding: 10px;
+    margin: 0 10px;
+}

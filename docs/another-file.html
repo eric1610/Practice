@@ -2,6 +2,25 @@
 <html lang="en">
     <head>
         <meta chartset="utf-8">
+        <title>A new file</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            #box {
+                margin: 10px;
+                font-size: 20px;
+                padding: 10px 2px 3px 4px;
+                border: 5px solid grey;
+                width: 150px;
+                height: 200px;
+                background-color: #93bb3c;
+                overflow: auto;
+            }
+            #content {
+                background-color: #BB4A23;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -9,7 +28,13 @@
         </header>
         <main>
             <blockquote>The main content</blockquote>
-            <p>&copy; 2019</p>
+            <p style="margin-bottom: 30px">&copy; 2019</p>
+            <div id="box">
+                <div id="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+            </div>
         </main>
     </body>
 </html>

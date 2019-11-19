@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+section {
+    height: 150px;
+}
+section p.columnWidth {
+    width:50%;
+    float:left;
+    border: 2px solid #B24973;
+    padding: 0px 10px;
+}
+.relative  {
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.relativeBox {
+    position:relative;
+    top: 30px;
+    left: 20px;
+}
+#box1 {
+    background-color: #29493B;
+}
+
+#box2 {
+    background-color: #40938A;
+}
+
+#box3 {
+    background-color: #A09258;
+}
