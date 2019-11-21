@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    color: #DADADA;
+    background-color: #b44a46;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#nav-logo {
+    height: 60px;
+    width: 60px;
+}
+
+a.navbar-brand:hover, a.navbar-brand:focus{
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Lora', 'Oxygen';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #888;
+    color: #0A750A;
+    margin-right: 20px;
+    float: left;
+}
+
+.nav-background {
+    background-color: #faf49a;
+}
+
+.navbar-nav {
+    color: #1423ac;
+}
+
+.navbar-toggler {
+    border-color:  #1423ac;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(20, 35, 172, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
